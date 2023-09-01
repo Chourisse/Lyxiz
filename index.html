@@ -23,6 +23,19 @@
 			<p>Jouer avec <span class="sip" data-ip="163.5.143.103" data-port="25577">
 			</span> autres joueurs sur <span class="ip">Lyxiz.fr</span></p>
 		</div>
+		<script>
+			const playerCountText = document.getElementById("playerCountText");
+		  
+			const numberOfPlayers = 1;
+		  
+			if (numberOfPlayers === 0 || numberOfPlayers === 1) {
+			  playerCountText.textContent = `Jouer avec ${numberOfPlayers} autre joueur sur Lyxiz.fr`;
+			} else {
+			  playerCountText.textContent = `Jouer avec ${numberOfPlayers} autres joueurs sur Lyxiz.fr`;
+			}
+		  </script>
+		  
+		  
 		<hr>
 
 		<div class="items">

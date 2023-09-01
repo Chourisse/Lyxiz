@@ -37,10 +37,11 @@ p {
 
 .container {
 	text-align: center;
+	transform: translateX(-70%);
 }
 
 .logo img {
-	width: 225px;
+	width: 225px; 
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
